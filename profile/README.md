@@ -9,10 +9,12 @@
 ## Internal Implementations
 The current provided implementation is that each variable is an *observable stream* from [RxJS](http://reactivex.io/rxjs). Also the assigned expressions for these variables are implemented as observable streams. The observable stream of a variable is created from merging the observable streams of the whole assigned expressions.
 
-## Usage Suggestions
+## Evaluation (Current)
+* Reduce code repetition.
+
+## Usage Suggestions (Future)
 * Two-Way Binding.
 * Support Cycles (No need for unidirectional data flow).
 * Constraints Programming.
-* Reduce code repetition.
 * Reduce need for event programming (and coupling).
 * Complex forms in simple form.
