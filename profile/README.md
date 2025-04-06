@@ -10,9 +10,9 @@
 The current provided implementation is that each variable is an *observable stream* from [RxJS](http://reactivex.io/rxjs). Also the assigned expressions for these variables are implemented as observable streams. The observable stream of a variable is created from merging the observable streams of the whole assigned expressions.
 
 ## Repositories
-* RIVar-Thesis: The thesis source and its PDF output
-* rivarjs: An implementation in JavaScript
-* RIVarCSharp: An implementation in C#
+* **RIVar-Thesis**: The thesis source and its PDF output
+* **rivarjs**: An implementation in JavaScript
+* **RIVarCSharp**: An implementation in C#
 
 ## Usage Suggestions (Future/Needs Evaluation)
 * Reduce code repetition
