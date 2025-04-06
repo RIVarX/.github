@@ -9,15 +9,18 @@
 ## Internal Implementations
 The current provided implementation is that each variable is an *observable stream* from [RxJS](http://reactivex.io/rxjs). Also the assigned expressions for these variables are implemented as observable streams. The observable stream of a variable is created from merging the observable streams of the whole assigned expressions.
 
-## Evaluation (Current)
-* Reduce code repetition
+## Repositories
+* RIVar-Thesis: The thesis source and its PDF output
+* rivarjs: An implementation in JavaScript
+* RIVarCSharp: An implementation in C#
 
-## Usage Suggestions (Future)
+## Usage Suggestions (Future/Needs Evaluation)
+* Reduce code repetition
 * Two-Way Binding
 * Constraints Programming
 * Support Cycles (No need for unidirectional data flow)
-* Reduce need for event programming
-* Generate cascading drop downs from many to many relationships
+* Reduce the need for event programming
+* Generate cascading dropdowns from many-to-many relationships
 * "Complex forms in simple form"
 
 ## Future Research
