@@ -28,3 +28,4 @@ The current provided implementation is that each variable is an *observable stre
 * Fine grained changes
 * Default values
 * DB persistence
+* Transparent FRP
