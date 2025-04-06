@@ -22,6 +22,7 @@ The current provided implementation is that each variable is an *observable stre
 * Reduce the need for event programming
 * Generate cascading dropdowns from many-to-many relationships
 * "Complex forms in simple form"
+*  [Support redandancy](https://docs.google.com/document/d/e/2PACX-1vQZizHpNh3RJpGnGctksGZcdIg9Oq9KQbprNT1lgHnquucBGROVJ1WAoZOWyZm1l1mwM0KYrdFFLCxr/pub)
 
 ## Future Research
 * Fine grained changes
