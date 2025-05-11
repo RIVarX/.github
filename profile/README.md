@@ -1,7 +1,7 @@
 # RIVar
-
-## Background
 **RIVar** stands for *Reactive Instance Variable*: a combination  of *Reactive Variable* from FRP (Functional Reactive Programming) with *Instance Variable* (i.e., object's variable) from OOP (Object Oriented Programming).  It aims to integrate automatic change propagation of FRP within principles of OOP.
+
+(for hebrew readers, there is an [article](https://github.com/RIVarX/.github/blob/main/RIVar%20Presentation%20Short%20Heb.pdf) available)
 
 ## Core Concept
 **RIVar** is built upon the established concept of calculated fields. Considering a formula like `Amount=Dose*Duration`, in which `Amount` is automatically computed based on the values of `Dose` and `Duration`. In using **RIVar**, the meaning of creating computed fields is reserved for when the formula declares `Amount` firstly. The extended meaning is of adding a *filling option*, or adding an *indirect input option*. Concretely, we can add a formula `Amount=Concentration*Volume` with the meaning that filling `Dose` and `Duration` is an *option added* to fill `Amount`.
