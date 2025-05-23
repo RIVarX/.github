@@ -5,7 +5,7 @@ Given that this is an early exploration, some aspects might appear complex at th
 
 ## Brief Explanations
 
-RIVar stands for a variable, built upon the established concept of calculated fields. Considering a formula like `Amount=Dose*Duration`, in which `Amount` is automatically computed based on the values of `Dose` and `Duration`. In using RIVar, the meaning of creating computed fields is reserved for only when the formula declares `Amount` firstly. However, we can add a formula `Amount=Concentration*Volume`. This provides an extended meaning: adding a *filling option*, or adding an *indirect input option*.
+RIVar stands for a variable, built upon the established concept of calculated fields. Considering a formula like `Amount=Dose*Duration`, in which `Amount` is automatically computed based on the values of `Dose` and `Duration`. In using RIVar, the meaning of creating computed fields is reserved for only when the formula declares `Amount` firstly. We can then add a formula `Amount=Concentration*Volume`. This provides an extended meaning: adding a *filling option*, or adding an *indirect input option*.
 
 The current provided implementation is that each variable is an *observable stream* from [RxJS](http://reactivex.io/rxjs). Also the assigned expressions for these variables are implemented as observable streams. The observable stream of a variable is created from merging the observable streams of the whole assigned expressions.
 
