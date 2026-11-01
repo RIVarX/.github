@@ -31,7 +31,7 @@ Whether inputs originate from human practitioners working across different cogni
 ## Brief: The Computational Model
 
 
-RIVar replaces destructive state updates and centralized constraint planners with three decentralized layers:
+RIVar redefines how state variables are declared, linked, and evaluated across three layers:
 
 ### 1. Constructive Assignment
 
