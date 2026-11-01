@@ -24,7 +24,7 @@ Whether inputs originate from human practitioners working across different cogni
   * 🎥 Conference Presentation & Slides: [Recording](https://drive.google.com/file/d/1dZgsepp8xugbNl_sbTTKpRyABWWo1tz8/view?usp=drive_link) | [Slides](https://docs.google.com/presentation/d/1DR_ft8YXT_pJn4ALrHHPLbmFAMFiNcgIMFNQt3FGytA)
   * 🇮🇱 For Hebrew readers: [Short Presentation (PDF)](https://github.com/RIVarX/.github/blob/main/RIVar%20Presentation%20Short%20Heb.pdf) | [Comments & Feedback (Google Doc)](https://docs.google.com/document/d/1Um2lwUbT-AtxXbXzZViVSG5CjEsD5gMGdnKKIl30T-4)
 
-> **Project Scope:** The core reactive OOP architecture, constructive assignment semantics, and provenance-based propagation algorithm are published and implemented in our proof-of-concept libraries. Extending the runtime into an active error-correcting protocol for noisy human/LLM interaction and domain-specific languages (DSLs) is an ongoing research direction.
+> **Project Scope:** The core reactive OOP architecture, constructive assignment semantics, and provenance-based propagation algorithm are published and implemented in our proof-of-concept libraries. Extending the runtime into an active error-correcting protocol for noisy human/LLM interaction (and more) is an ongoing research direction.
 
 ---
 
