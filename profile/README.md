@@ -33,7 +33,7 @@ Whether inputs originate from human practitioners working across different cogni
 
 RIVar replaces destructive state updates and centralized constraint planners with three decentralized layers:
 
-### 1. Language & Constructive Assignment
+### 1. Constructive Assignment
 RIVar builds upon the concept of calculated fields. In standard reactive models, declaring `Amount = Dose * Duration` binds `Amount` exclusively to that formula. In RIVar, constructive assignment (`:=`) establishes the reactive variable while allowing additional, overlapping definitions to be attached across modular boundaries:
 
 ```text
@@ -47,7 +47,7 @@ Rather than severing the previous link or causing a structural conflict, each as
 
 Variables and expressions act as streams of values. The constructive assignment handles a stream merge operation by subscribing to the input streams, evaluating converging values, and propagating updates to the target variables.
 
-### 3. Conflict Resolution & Merge Strategies
+### 3. Conflict Resolution / Merge Strategies
 
 The behavior for detecting and handling conflicts can be plugged in. The default strategy handles feedback loops, cyclic echoes, and glitches locally by applying causal provenance and temporal prioritization — ensuring that fresh external inputs supersede older values and maintain deterministic convergence.
 
