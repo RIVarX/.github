@@ -40,7 +40,7 @@ RIVar redefines how state variables are declared, linked, and evaluated across t
 
 ### 2. Stream Merge
 
-Variables and expressions act as streams of values. The constructive assignment handles a stream merge operation by subscribing to the input streams, evaluating converging values, and propagating updates to the target variables.
+Variables and expressions act as streams of values. The constructive assignment handles a stream merge operation by subscribing to the expressions streams and propagating updates to the target variables.
 
 ### 3. Conflict Resolution / Merge Strategies
 
