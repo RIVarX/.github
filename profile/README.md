@@ -35,12 +35,23 @@ RIVar redefines how state variables are declared, linked, and evaluated across t
 
 ### 1. Constructive Assignment
 
-* Variables can have several "active" assignments at the same time.
-* Mutual recursions are allowed.
+- **Multiple Active Assignments**  
+  Variables can have several active assignments simultaneously.
+  ```text
+  Amount := Concentration * Volume
+  Amount := Dose * Duration
+  ```
+
+- **Mutual Recursions (Cycles)**  
+  Circular dependencies and mutual recursions between variables are fully supported.
+  ```text
+  Amount := Concentration * Volume
+  Volume := Amount / Concentration
+  ```
 
 ### 2. Stream Merge
 
-Variables and expressions act as streams of values. The constructive assignment handles a stream merge operation by subscribing to the expressions streams and propagating updates to the target variables.
+Variables and expressions act as streams of values. The constructive assignment handles a stream merge operation by subscribing to the expressions streams and propagating updates to the target variables. This produces the classic merge operation over streams.
 
 ### 3. Conflict Resolution / Merge Strategies
 
