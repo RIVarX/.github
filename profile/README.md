@@ -1,19 +1,16 @@
 # RIVar Ecosystem
 
-Welcome to the RIVarX organization! This space hosts the foundational repositories, reference implementations, and proofs-of-concept for the **RIVar (Reactive Instance Variable)** concept.
+Welcome to the **RIVarX** organization. Originally conceived as a language **Extension** incorporating the **RIVar** concept into existing programming languages, this organization now serves to host the reference implementations and research artifacts supporting our paper:
+
+> **Escaping the DAG Dogma: Toward Modular Reactive Architectures**  
+> Rivka Altshuler and David H. Lorenz — **ACM SIGPLAN SPLASH / Onward! '26**  
+> 📄 [Paper on ACM DL](https://doi.org/10.1145/3840586.3843206) | [Thesis & Sources (`RIVar-Thesis`)](https://github.com/RIVarX/RIVar-Thesis)  
+> 🎥 Conference Presentation & Slides: [Recording](https://drive.google.com/file/d/1dZgsepp8xugbNl_sbTTKpRyABWWo1tz8/view?usp=drive_link) | [Slides](https://docs.google.com/presentation/d/1DR_ft8YXT_pJn4ALrHHPLbmFAMFiNcgIMFNQt3FGytA)  
+> 🇮🇱 For Hebrew readers: [Short Presentation (PDF)](https://github.com/RIVarX/.github/blob/main/RIVar%20Presentation%20Short%20Heb.pdf) | [Comments & Feedback (Google Doc)](https://docs.google.com/document/d/1Um2lwUbT-AtxXbXzZViVSG5CjEsD5gMGdnKKIl30T-4)
 
 ---
 
-## 📄 Published Research
-
-- **Published Paper:** *Escaping the DAG Dogma: Toward Modular Reactive Architectures* (Rivka Altshuler and David H. Lorenz) — **ACM SIGPLAN SPLASH / Onward! '26**.
-  * 📄 [Paper on ACM DL](https://doi.org/10.1145/3840586.3843206) | [Thesis & Sources (`RIVar-Thesis`)](https://github.com/RIVarX/RIVar-Thesis)
-  * 🎥 Conference Presentation & Slides: [Recording](https://drive.google.com/file/d/1dZgsepp8xugbNl_sbTTKpRyABWWo1tz8/view?usp=drive_link) | [Slides](https://docs.google.com/presentation/d/1DR_ft8YXT_pJn4ALrHHPLbmFAMFiNcgIMFNQt3FGytA)
-  * 🇮🇱 For Hebrew readers: [Short Presentation (PDF)](https://github.com/RIVarX/.github/blob/main/RIVar%20Presentation%20Short%20Heb.pdf) | [Comments & Feedback (Google Doc)](https://docs.google.com/document/d/1Um2lwUbT-AtxXbXzZViVSG5CjEsD5gMGdnKKIl30T-4)
-
----
-
-## 💡 Brief Explanations
+## Brief Explanations
 
 RIVar stands for a variable, built upon the established concept of calculated fields. Considering a formula like `Amount=Dose*Duration`, in which `Amount` is automatically computed based on the values of `Dose` and `Duration`. In using RIVar, the meaning of creating computed fields is reserved for only when the formula declares `Amount` firstly, and allows adding another formula `Amount=Concentration*Volume`. This provides an extended meaning: adding a *filling option*, or adding an *indirect input option*.
 
@@ -21,16 +18,16 @@ This characteristic is a result of a distinctive approach of combining Functiona
 
 ---
 
-## 📦 Repositories
+## Repositories & Artifacts
 
-- **[rivarjs](https://github.com/RIVarX/rivarjs) (JavaScript):** A lightweight JavaScript-based proof of concept built on RxJS, including the clinical drug-administration prototype and HotDrink comparison.
-- **[rivarts](https://github.com/RIVarX/rivarts) (TypeScript):** Fully typed TypeScript implementation of the RIVar reactive runtime engine and samples.
-- **[RIVarCSharp](https://github.com/RIVarX/RIVarCSharp) (C#):** A C#-based core runtime engine.
+- **[rivarjs](https://github.com/RIVarX/rivarjs) (JavaScript):** The reference implementation and artifact directly accompanying the Onward! 2026 paper (chosen as the mature environment for the publication). Includes the clinical drug-administration prototype and HotDrink comparison.
+- **[rivarts](https://github.com/RIVarX/rivarts) (TypeScript):** Fully typed TypeScript evolution of the reactive runtime engine and samples.
+- **[RIVarCSharp](https://github.com/RIVarX/RIVarCSharp) (C#):** The initial foundational C#-based core runtime engine.
 
 ---
 
-## 💬 Get in Touch & Collaboration
+## Get in Touch & Collaboration
 
-Given that this is an ongoing research and exploration, I would love to hear from researchers, developers, and anyone interested in architectural patterns, reactive programming, or potential workshops and collaborations. 
+Given that this organization serves as the research artifacts hub, we welcome researchers, developers, and anyone interested in architectural patterns or reactive programming to explore the code. 
 
-Feel free to reach out directly via email: **[brandrivka@gmail.com](mailto:brandrivka@gmail.com)**
+For discussions regarding the paper, potential extensions, or professional collaborations and workshops, feel free to reach out directly via email: **[brandrivka@gmail.com](mailto:brandrivka@gmail.com)**
