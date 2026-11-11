@@ -10,11 +10,9 @@ Welcome to the **RIVarX** organization. Originally conceived as a language **Ext
 
 ---
 
-## Brief Explanations
+## The RIVar Name
 
-RIVar stands for a variable, built upon the established concept of calculated fields. Considering a formula like `Amount=Dose*Duration`, in which `Amount` is automatically computed based on the values of `Dose` and `Duration`. In using RIVar, the meaning of creating computed fields is reserved for only when the formula declares `Amount` firstly, and allows adding another formula `Amount=Concentration*Volume`. This provides an extended meaning: adding a *filling option*, or adding an *indirect input option*.
-
-This characteristic is a result of a distinctive approach of combining Functional Reactive Programming (FRP) with Object Oriented Programming (OOP). The name RIVar stands for *Reactive Instance Variable*: a combination of *Reactive Variable* from FRP with *Instance Variable* (i.e., object's variable) from OOP. It aims to integrate automatic change propagation of FRP within principles of OOP.
+In the paper, **RIVar** (*Reactive Instance Variable*) is the core abstraction of a JavaScript framework that combines the behavior of a reactive variable in functional reactive programming with an instance variable in object-oriented programming. The paper uses this abstraction to realize constructive assignment in a reactive object-oriented architecture.
 
 ---
 
